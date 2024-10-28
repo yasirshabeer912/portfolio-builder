@@ -8,8 +8,8 @@ export default function Page() {
   <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
   <img
     alt="Developer portfolio background"
-    src="https://images.unsplash.com/photo-1617195737496-bc30194e3a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-    className="absolute inset-0 h-full w-full object-cover opacity-80"
+    src="/assets/login-bg.jpg"
+    className="absolute inset-0 h-full w-full object-cover opacity-30"
   />
 
   <div className="hidden lg:relative lg:block lg:p-12">
@@ -68,7 +68,7 @@ export default function Page() {
           </p>
         </div>
 
-        <SignIn />
+        <SignIn redirectUrl="/details" />
       </div>
     </main>
   </div>
